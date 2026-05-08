@@ -48,21 +48,21 @@ const TerminalDialog = ({ open, onOpenChange }: TerminalDialogProps) => {
   5. clear   - Clear terminal`;
         break;
       case 'server':
-        response = '🎮 Discord Server: discord.gg/aerox';
+        response = '🎮 Discord Server: discord.gg/nakkhotro';
         break;
       case 'about':
         response = `👤 About Me:
-  Name: Alya
-  Age: 20
-  Profession: Graphic Design / Web Development`;
+  Name: AEGIS
+  Age: 18+
+  Profession: ?`;
         break;
       case 'webinfo':
         response = `🌐 Website Info:
   Inspiration: cursi.ng
-  Created by: Alya`;
+  Created by: AEGIS`;
         break;
       case 'discord':
-        response = '💬 Discord: arcticayl';
+        response = '💬 Discord: noxe';
         break;
       case 'clear':
         setHistory([{ type: 'output', content: 'Terminal cleared. Type "help" for commands.' }]);
